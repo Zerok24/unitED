@@ -1,0 +1,158 @@
+<!--- United Help Page v 2020.04.06 --->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>United Help</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) 
+sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2 id="top">Help</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#basic_input">Basic Input</a></li>
+      <li><a href="#adv_input">Advanced Input</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <!--- Basic Input -->
+    <h1 id="basic_input">Basic Input</h1>
+    <p>The united calculator supports all basic functions of a calculator! You
+    can easily input numbers, and do simple arithmetic.</p>
+    <h4>Below is a list of commonly used buttons as shown in the picture:</h4>
+    <dl>
+      <dt><strong>History</strong></dt>
+        <dd>View history of past calculations</dd>
+      <dt><strong>Input Bar</strong></dt>
+        <dd>View numbers and operators inputed as well as type them in manually</dd>  
+      <dt><strong>Menu Bar</strong></dt>
+        <dd>Access advanced features of the calculator</dd>
+      <dt><strong>Number Pad</strong></dt>
+        <dd>Input numbers</dd>
+      <dt><strong>Operators</strong></dt>
+        <dd>Evaluate expressions with operands</dd>
+      <dt><strong>Unit Dropdown</strong></dt>
+        <dd>Select units as well as input your own units</dd>
+    </dl>
+    <br>
+    <img src="calculator.png" alt="calculator">
+
+    <!--- Advanced Input -->
+    <h1 id="adv_input">Advanced Input</h1>
+    <p>The united calculator also supports several more advanced functions!</p>
+    <h4>Below is a list of some more advanced buttons as shown in the picture:</h4>
+    <dl>
+      <dt><strong>About</strong></dt>
+        <dd>Open an about page</dd>
+      <dt><strong>Add</strong></dt>
+        <dd>Add a custom unit and define like units</dd>
+      <dt><strong>Colors</strong></dt>
+        <dd>Change the colors of the calculator</dd>
+      <dt><strong>Convert</strong></dt>
+        <dd>Convert displayed units to another like unit</dd>
+      <dt><strong>Cut, Copy, & Paste</strong></dt>
+        <dd>Basic text editing commands</dd>
+      <dt><strong>Logo</strong></dt>
+        <dd>Select the image for the logo</dd>
+      <dt><strong>Playback</strong></dt>
+        <dd>Playback a sequence of calculations</dd>
+      <dt><strong>Print</strong></dt>
+        <dd>Open a printable version of the history</dd>
+      <dt><strong>Record</strong></dt>
+        <dd>Record a sequence of calculations in a file</dd>
+      <dt><strong>Web</strong></dt>
+        <dd>Open an online help page</dd>
+    </dl>
+    <br>
+    <table style="width:100%">
+      <tr><img src="file.png" alt="file"></tr>
+      <tr><img src="edit.png" alt="edit"></tr>
+      <tr><img src="help.png" alt="help"></tr>
+    </table>
+    <br>
+    <br>
+    <a href="#top">Back To Top</a>
+  </article>
+</section>
+
+<footer>
+  <p>---- United Calculator ----</p>
+</footer>
+
+</body>
+</html>
