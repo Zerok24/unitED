@@ -15,6 +15,9 @@ Example:
 
 ![](united1/src/web/history.JPG)
 
+To add a new unit conversion, click on the **add** and then file out the blanks.
+
+![](united1/src/web/history.JPG)
 
 To learn more on how to use it, go to: http://w3stu.cs.jmu.edu/tuckerzp/United/United_Help.html
 or **Help->Web**
