@@ -16,7 +16,7 @@ import gui.UnitedWindow;
  */
 public class United implements Runnable
 {
-
+ 
   /**
    * The entry point of the application.
    * 
