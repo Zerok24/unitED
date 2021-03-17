@@ -6,7 +6,7 @@ This Calculator makes conversion between any unit. If unit does not exist in the
 
 ![](united1/src/web/design.JPG)
 
-To change theme color, go to **File->colors** and select theme color. example:
+To change theme color, go to **File->colors** and select theme color. Example:
 
 ![](united1/src/web/colors.JPG)
 
@@ -15,8 +15,7 @@ Example:
 
 ![](united1/src/web/history.JPG)
 
-To add a new unit conversion, click on the **add** and then file out the blanks.
-
+To add a new unit conversion, click on the **add** and then file out the blanks. Example:
 ![](united1/src/web/newUnit.JPG)
 
 To learn more on how to use it, go to: http://w3stu.cs.jmu.edu/tuckerzp/United/United_Help.html
